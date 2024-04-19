@@ -1,0 +1,422 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.font {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.maal{
+  width: 60%;
+}
+
+.menu-bar-div{
+  display: none;
+}
+
+nav {
+  min-height: 10vh;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  padding-top: 15px;
+}
+
+ul {
+  margin-top: 10px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+  margin: 20px;
+  font-size: 1.25rem !important;
+}
+
+.btn {
+  margin-right: 20px;
+  border: 0px;
+  border-radius: 10%;
+  font-size: 1rem;
+  padding: 1rem;
+  background: rgb(107, 255, 132);
+  color: rgb(4, 139, 31);
+  cursor: pointer;
+}
+
+.container-1 {
+  min-height: 85vh;
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+  padding-top: 5rem;
+  padding-left: 6rem;
+  padding-right: 10rem;
+}
+
+h1 {
+  font-size: 4.5rem !important;
+  color: grey;
+}
+
+span {
+  color: green;
+}
+
+p {
+  margin-top: 20px;
+  color: grey;
+  font-size: 1.5rem !important;
+  font-weight: 400 !important;
+}
+
+.btn1 {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  color: white;
+  background-color: green;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+
+.btn1:hover{
+  
+  transform: rotate(-5deg) scale(1.1);
+  
+}
+
+.ohmy{
+  animation: GFG 3s infinite ease-out normal; 
+} 
+
+@keyframes GFG { 
+    0% { 
+      transform: rotate(0deg) translateX(10px) rotate(0deg);             
+    } 
+
+    20% { 
+      transform: rotate(360deg) translateX(10px) rotate(-360deg);
+    }
+
+    40% { 
+      transform: rotate(360deg) translateX(10px) rotate(-360deg);
+    }
+
+    60% { 
+      transform: rotate(360deg) translateX(10px) rotate(-360deg);
+    }
+
+    80% { 
+      transform: rotate(360deg) translateX(10px) rotate(-360deg) scaleX(0.9) scaleY(1.1);
+    }
+
+    100% { 
+      transform: rotate(360deg) translateX(10px) rotate(-360deg) scaleX(1) scaleY(1);
+    }
+} 
+
+
+
+@media screen and (max-width: 1280px) {
+  .font {
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .ohmy {
+    height: 30rem;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    padding-top: 15px;
+  }
+
+  ul {
+    margin-top: 20px;
+  }
+
+  li {
+    list-style: none;
+    display: inline-block;
+  }
+
+  a {
+    text-decoration: none;
+    color: grey;
+    margin: 20px;
+    font-size: 1.25rem !important;
+  }
+
+  .btn {
+    border: 0px;
+    border-radius: 10%;
+    font-size: 1rem;
+    padding: 1rem;
+    background: rgb(107, 255, 132);
+    color: rgb(4, 139, 31);
+    cursor: pointer;
+  }
+
+  .container-1 {
+    min-height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  h1 {
+    font-size: 4rem !important;
+    color: grey;
+  }
+
+  span {
+    color: green;
+  }
+
+  p {
+    margin-top: 20px;
+    color: grey;
+    font-size: 1.25rem !important;
+    font-weight: 400;
+  }
+
+  .btn1 {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 1.25rem !important;
+    border-radius: 1rem;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .font {
+    font-family: "Lato", sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  nav {
+    min-height: 10vh;
+  }
+
+  .container-1 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 3rem;
+  }
+
+  ul {
+    margin-top: 20px;
+  }
+
+  li {
+    list-style: none;
+    display: inline-block;
+  }
+
+  a {
+    text-decoration: none;
+    color: grey;
+    margin: 20px;
+    font-size: 1.1rem;
+  }
+
+  .btn {
+    border: 0px;
+    border-radius: 10%;
+    font-size: 1rem;
+    padding: 1rem;
+    background: rgb(107, 255, 132);
+    color: rgb(4, 139, 31);
+    margin-top: 0.75rem;
+    cursor: pointer;
+  }
+
+  .ohmy {
+    height: 25rem;
+  }
+
+  .img-div {
+    margin-left: 4rem;
+  }
+
+  .maal {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 3rem !important;
+    color: grey;
+  }
+
+  span {
+    color: green;
+  }
+
+  p {
+    margin-top: 20px;
+    color: grey;
+    font-size: 1rem !important;
+    font-weight: 400;
+  }
+
+  .btn1 {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    font-size: 1rem !important;
+    border-radius: 1rem;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+
+  nav {
+    min-height: 0;
+  }
+
+  .black {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+  }
+
+  .white {
+    height: 6px;
+  }
+
+  .menu-bar {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 30px;
+    border: 0px solid black;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  .menu-bar-div {
+    /* float: right; */
+    width: 50%;
+    height: 100vh;
+    background-color: lightgreen;
+    display: none;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    /* float: right; */
+  }
+
+  .menu-bar:focus + .menu-bar-div {
+    /* float: right; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu-bar-div:hover {
+    /* float: right; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu-bar-div ul{
+    width: 100%;
+    text-align: center;
+  }
+
+  .menu-bar-div > ul > li{
+    display: block;
+    margin: 2rem 0;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    padding-top: 5px;
+  }
+
+  .container-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 1rem;
+    padding-top: 2rem;
+    gap: 2rem;
+  }
+
+  .lasan {
+    display: none;
+  }
+
+  .img-div {
+    height: 700px;
+    margin-left: 0px;
+  }
+
+  .ohmy {
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 80%;
+  }
+
+  .btn1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1 {
+    font-size: 3rem !important;
+  }
+}
